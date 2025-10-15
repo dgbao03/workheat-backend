@@ -14,7 +14,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/commits")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://workheat-frontend.vercel.app")
 public class CommitController {
 
     private final CommitService commitService;
